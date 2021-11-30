@@ -1,5 +1,5 @@
 import time
-from crypto_hash import crypto_hash
+from backend.util.crypto_hash import crypto_hash
 def mine_block(last_block, data):
     """
     Mine a block based on the given last_block and data.
