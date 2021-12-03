@@ -27,3 +27,8 @@ def test_slowly_mined_block():
     time.sleep(MINE_RATE/ SECONDS)
     mined_block = Block.mine_block(last_block, 'bar')
     assert mined_block.difficulty == last_block.difficulty - 1
+
+def test_is_valid_block():
+    last_block = Block.genesis()
+    block = Block.mine_block(last_block, 'test_data')
+    Block.is_valid_block(last_block, block)
