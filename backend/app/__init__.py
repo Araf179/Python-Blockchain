@@ -4,6 +4,8 @@ import requests
 from flask import Flask, jsonify
 from backend.blockchain.blockchain import Blockchain
 from backend.pubsub import PubSub
+from backend.wallet.wallet import Wallet
+
 
 app = Flask(__name__)
 blockchain = Blockchain()
