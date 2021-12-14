@@ -17,8 +17,9 @@ Make sure to activate the virtual environment.
 
 Make sure to activate the virtual environment
 
+**How to use**
 ```
 python3 -m backend.app
 export PEER=True && python3 -m backend.app
-go to localhost:5000/blockchain/mineblock route to see the new block broadcasted
+We can do python3 -m backend.scripts.test_app to test the blockchain
 ```
