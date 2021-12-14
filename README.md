@@ -1,3 +1,5 @@
+# REST BASED BLOCKCHAIN
+
 **Activate the virtual environment**
 
 ```
@@ -13,13 +15,21 @@ pip3 install -r requirements.txt
 
 Make sure to activate the virtual environment.
 
-**Run a peer instance**
-
-Make sure to activate the virtual environment
-
-**How to use**
+**Run a peer instances**
 ```
 python3 -m backend.app
 export PEER=True && python3 -m backend.app
-We can do python3 -m backend.scripts.test_app to test the blockchain
 ```
+
+**How to use**
+```
+We can do python3 -m backend.scripts.test_app to test the blockchain via script
+```
+
+**Or we can use the frontend**
+```
+cd frontend
+npm install
+npm run start
+```
+
